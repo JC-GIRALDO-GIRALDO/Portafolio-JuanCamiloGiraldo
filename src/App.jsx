@@ -1,18 +1,16 @@
-import './App.css'
-import Header from './components/Layout/Header'
-import Main from './components/Layout/Main'
-import Footer from './components/Layout/Footer'
+import "./App.css";
+import Header from "./components/Layout/Header";
+import Main from "./components/Layout/Main";
+import Footer from "./components/Layout/Footer";
 
 function App() {
-
-  return ( 
-  <div className='container'>
-      <Header /> 
+  return (
+    <div className="container">
+      <Header />
       <Main />
       <Footer />
-  </div>
-   
-  )
+    </div>
+  );
 }
 
 export default App;

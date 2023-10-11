@@ -15,7 +15,6 @@ body {
   scroll-behavior: smooth;
   width: 100vw;
   height: 100vh;
-  user-select: none;
   font-size: 0.88rem;
   overflow-x: hidden !important;
   transition: 0.5s background ease;

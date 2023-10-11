@@ -1,5 +1,5 @@
-import React from 'react';
-import RouteApp from '../Routes/RouteApp';
+import React from "react";
+import RouteApp from "../../Routes/RouteApp";
 
 function Main() {
   return (

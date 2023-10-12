@@ -1,28 +1,29 @@
 import React from "react";
+import "./HomePage.css";
 
 function HomePage() {
   return (
     <div id="inicio" className="mt-5 pt-5">
       <div className="row">
         {/* Sección de la imagen */}
-        <div className="col-md-6 mt-5">
+        <div className="col-md-6 d-flex justify-content-center align-items-center">
           <img
-            src="/ruta-de-tu-imagen.jpg" // Reemplaza con la ruta de tu imagen
+            src="../../../../public/Imagenes/fondo-10.png" // Reemplaza con la ruta de tu imagen
             alt="Mi Portafolio"
-            className="img-fluid"
+            style={{ maxWidth: "50%", height: "auto" }} // Establece el estilo en línea para la imagen
           />
         </div>
 
         {/* Sección de texto */}
-        <div className="col-md-6 mt-5">
-          <h2>Bienvenido a mi Portafolio</h2>
+        <div className="col-md-6 mt-5 mr-3 text-center contenido-texto">
+          {" "}
+          {/* Agrega la clase mr-3 para margen a la derecha */}
+          <h3>Bienvenido a mi Portafolio</h3>
+          <h2>Yo soy, Juan Giraldo</h2>
+          <h4>Desarrollador Full Stack</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu
-            massa eget mi varius bibendum.
-          </p>
-          <p>
-            Sed quis nisi sit amet mi cursus tincidunt. Vivamus eu nulla vel
-            dolor condimentum posuere.
+            Exploro el aprendizaje continuo y canalizo mi pasión a través de
+            proyectos que trascienden la rutina laboral en mi vida cotidiana.
           </p>
         </div>
       </div>

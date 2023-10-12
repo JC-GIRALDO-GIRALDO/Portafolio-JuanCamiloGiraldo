@@ -1,0 +1,35 @@
+.about-image {
+  margin-left: 10rem; /* Ajusta el margen a tu preferencia */
+}
+.about-text {
+  background-color: #007bff; /* Color de fondo para el contenedor de texto */
+  padding: 20px;
+  border-radius: 10px; /* Borde redondeado */
+  color: #fff; /* Color de texto */
+  margin-left: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.social-icons {
+  text-align: center; /* Centra los iconos de redes sociales */
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons a {
+  margin: 0 auto;
+  background-color: lightslategrey;
+  border: 2px solid #007bff; /* Borde con color de fondo */
+  border-radius: 50%; /* Borde redondeado para los iconos */
+  padding: 10px; /* Espacio interno para los iconos */
+  display: inline-block; /* Alinea los iconos en línea horizontal */
+  transition: background-color 0.3s, border-color 0.3s; /* Efecto de transición en hover */
+}
+
+.social-icons a:hover {
+  background-color: #007bff; /* Cambia el color de fondo en hover */
+  border-color: #fff; /* Cambia el color del borde en hover */
+}
+.sobreMi {
+  margin-top: 100rem;
+}

@@ -1,17 +1,34 @@
 import React from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../../../fontAwesome";
 
 function AboutMePage() {
   return (
-    <Container className="mt-5">
+    <Container id="sobre-mi" className="mt-5">
       <h2>Sobre Mí</h2>
       <Row className="mt-5">
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} className="text-center">
           <Image
             src="/tu-foto.jpg" // Reemplaza con la URL de tu foto
             alt="Mi Foto"
             fluid
           />
+          <div className="social-icons mt-3">
+            <a href="URL-de-Gmail" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={["fab", "google"]} />
+            </a>
+            <a href="URL-de-GitHub" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={["fab", "github"]} />
+            </a>
+            <a href="URL-de-LinkedIn" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={["fab", "linkedin"]} />
+            </a>
+            <a href="URL-de-WhatsApp" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={["fab", "whatsapp"]} />
+            </a>
+            {/* Agrega más iconos de redes sociales o contactos según sea necesario */}
+          </div>
         </Col>
         <Col xs={12} md={6}>
           <p>

@@ -4,14 +4,14 @@ function Footer() {
   return (
     <footer className="bg-dark text-light">
       <div className="container-fluid py-4">
-        <div className="row">
-          <div className="col-lg-6">
+        <div className="d-flex align-items-center">
+          <div>
             <h4>Información de Contacto</h4>
             <p>Dirección: Calle X, Ciudad Y</p>
             <p>Teléfono: (123) 456-7890</p>
             <p>Correo Electrónico: info@example.com</p>
           </div>
-          <div className="col-lg-6">
+          <div className="ml-auto">
             <h4>Enlaces Rápidos</h4>
             <ul>
               <li>

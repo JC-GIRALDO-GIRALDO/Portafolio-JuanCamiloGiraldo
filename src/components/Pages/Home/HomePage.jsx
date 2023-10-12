@@ -2,7 +2,7 @@ import React from "react";
 
 function HomePage() {
   return (
-    <div className="mt-5 pt-5">
+    <div id="inicio" className="mt-5 pt-5">
       <div className="row">
         {/* Sección de la imagen */}
         <div className="col-md-6 mt-5">

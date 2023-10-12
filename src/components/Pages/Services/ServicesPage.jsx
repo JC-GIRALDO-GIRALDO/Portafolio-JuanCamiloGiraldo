@@ -32,7 +32,7 @@ function ServicesPage() {
   ];
 
   return (
-    <Container className="mt-5 pt-5">
+    <Container id="servicios" className="mt-5 pt-5">
       <h2>Mis Servicios</h2>
       <Row className="mt-5">
         {services.map((service, index) => (

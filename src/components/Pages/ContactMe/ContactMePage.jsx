@@ -25,7 +25,7 @@ function ContactMePage() {
   };
 
   return (
-    <Container className="mt-5 pt-5">
+    <Container id="contacto" className="mt-5 pt-5">
       <h2>Contacto</h2>
       <Form className="mt-5" onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="name">

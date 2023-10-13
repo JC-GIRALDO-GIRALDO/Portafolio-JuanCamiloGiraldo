@@ -31,7 +31,8 @@ function ServicesPage() {
     },
     {
       title: "Diseño Gráfico",
-      description: "Descripción del nuevo servicio que ofreces.",
+      description:
+        "Creación de gráficos atractivos y creativos para tus proyectos visuales.",
       imageUrl: "../../../../public/Imagenes/Diseno-Grafico.png",
     },
   ];

@@ -35,7 +35,7 @@ function MyWorkPage() {
       image: "../../../../public/Imagenes/proyecto-4.png",
       appLink: "Enlace a la aplicación 4",
       githubLink: "Enlace al repositorio 4",
-    },
+    }
   ];
 
   const defaultProject = projects[0];
@@ -48,6 +48,18 @@ function MyWorkPage() {
 
   const closeProjectDetails = () => {
     setSelectedProject(null);
+  };
+
+  const navigateToPreviousProject = () => {
+    const currentIndex = projects.findIndex((project) => project.id === selectedProject.id);
+    const previousIndex = (currentIndex - 1 + projects.length) % projects.length;
+    setSelectedProject(projects[previousIndex]);
+  };
+
+  const navigateToNextProject = () => {
+    const currentIndex = projects.findIndex((project) => project.id === selectedProject.id);
+    const nextIndex = (currentIndex + 1) % projects.length;
+    setSelectedProject(projects[nextIndex]);
   };
 
   return (
@@ -75,6 +87,8 @@ function MyWorkPage() {
         <ProjectDetails
           project={selectedProject}
           onClose={closeProjectDetails}
+          onPrevious={navigateToPreviousProject}
+          onNext={navigateToNextProject}
         />
       )}
     </Container>

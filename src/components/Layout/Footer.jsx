@@ -7,9 +7,9 @@ function Footer() {
         <div className="d-flex align-items-center">
           <div>
             <h4>Información de Contacto</h4>
-            <p>Dirección: Calle X, Ciudad Y</p>
-            <p>Teléfono: (123) 456-7890</p>
-            <p>Correo Electrónico: info@example.com</p>
+            <p>Dirección: Medellin Antioquia</p>
+            <p>Teléfono: (57) 3209202297</p>
+            <p>Correo Electrónico: kmilom19@gmail.com</p>
           </div>
           <div className="ml-auto">
             <h4>Enlaces Rápidos</h4>

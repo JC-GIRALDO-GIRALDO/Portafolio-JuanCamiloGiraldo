@@ -4,11 +4,7 @@
     format("woff2");
   /* Agrega otros formatos de fuente si es necesario, como 'woff' y 'ttf' */
 }
-.brand-text {
-  font-family: "AlexBrush", sans-serif;
-  font-size: 70px; /* Aumenta el tamaño de la fuente a 70px o al valor deseado */
-  color: #ff6600;
-}
+
 .munu li {
   margin-left: 15px;
   margin-right: 15px;
@@ -24,8 +20,23 @@
   background-color: transparent; /* Fondo transparente para el elemento activo */
   /* Agrega otros estilos según tus preferencias */
 }
-
 /* Cambia el color del texto cuando se activa */
 .navbar-nav .nav-item.active a {
   color: #ff6600; /* Color de texto para el elemento activo */
+}
+.navbar-nav .nav-item a {
+  font-size: 18px; /* Cambia el tamaño de fuente a tu preferencia */
+}
+.brand-text {
+  font-size: 30px; /* Aumenta el tamaño de fuente a tu preferencia */
+}
+/* Estilo para el elemento de menú activo */
+.navbar-nav .nav-item.active a {
+  color: #ff6600; /* Cambia el color de texto para el elemento activo */
+  text-decoration: underline; /* Agrega subrayado al elemento activo */
+}
+.brand-text {
+  font-family: "AlexBrush", sans-serif;
+  font-size: auto; /* Aumenta el tamaño de la fuente a 70px o al valor deseado */
+  color: #ff6600;
 }

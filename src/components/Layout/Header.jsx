@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 import { Link, Events, animateScroll as scroll, scrollSpy } from "react-scroll";
 import "./Header.css";
 
@@ -27,8 +26,8 @@ function Header() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
         <div className="row w-100 align-items-center">
-          <div className="col-9 text-center">
-            <div className="text-center mb-3 menu">
+          <div className="col-12 col-lg-9 text-center mb-3">
+            <div className="text-center menu">
               <ul className="navbar-nav">
                 {menuItems.map((item) => (
                   <li
@@ -42,7 +41,7 @@ function Header() {
                       smooth={true}
                       duration={500}
                       spy={true}
-                      offset={-50} // Ajusta el valor de desplazamiento
+                      offset={-50}
                       onSetActive={handleSetActive}
                     >
                       {item.toUpperCase()}
@@ -52,8 +51,13 @@ function Header() {
               </ul>
             </div>
           </div>
-          <div className="col-3 text-center">
-            <div className="navbar-brand brand-text">Juan Camilo Giraldo</div>
+          <div className="col-12 col-lg-3 text-center">
+            <div
+              className="navbar-brand brand-text h1"
+              style={{ fontSize: "32px" }}
+            >
+              Juan Camilo Giraldo
+            </div>
           </div>
         </div>
       </div>

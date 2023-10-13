@@ -14,7 +14,7 @@ function AboutMePage() {
             <img
               src="../../../../public/Imagenes/Foto-Camilo-port.png"
               alt="Mi Foto"
-              fluid
+              fluid="true"
               style={{ maxWidth: "100%", height: "auto" }}
             />
             <div className="social-icons">
@@ -57,10 +57,10 @@ function AboutMePage() {
         <Col xs={12} md={6} className="order-md-1">
           <div className="about-text">
             <p>
-              ¡Hola! Soy [Tu Nombre], un apasionado desarrollador web con
-              experiencia en tecnologías como React, Node.js, HTML, CSS y mucho
-              más. Me encanta crear aplicaciones web impresionantes y resolver
-              problemas desafiantes.
+              ¡Hola! Soy un apasionado desarrollador web con experiencia en
+              tecnologías como React, Node.js, HTML, CSS y mucho más. Me encanta
+              crear aplicaciones web impresionantes y resolver problemas
+              desafiantes.
             </p>
             <p>
               Mi objetivo es construir productos web de alta calidad que sean
@@ -71,11 +71,11 @@ function AboutMePage() {
             </p>
             <Button
               variant="primary"
-              href="/ruta-de-tu-resume.pdf"
+              href="../../../../public/CV_JUAN_CAMILO_GIRALDO.docx"
               target="_blank"
               download
             >
-              Descargar Mi Currículum
+              Descargar CV
             </Button>
           </div>
         </Col>

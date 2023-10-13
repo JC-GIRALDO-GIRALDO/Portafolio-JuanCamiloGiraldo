@@ -16,7 +16,6 @@ function HomePage() {
 
         {/* Sección de texto */}
         <div className="col-md-6 mt-5 mr-3 text-center contenido-texto">
-          {" "}
           {/* Agrega la clase mr-3 para margen a la derecha */}
           <h3>Bienvenido a mi Portafolio</h3>
           <h2>Yo soy, Juan Giraldo</h2>

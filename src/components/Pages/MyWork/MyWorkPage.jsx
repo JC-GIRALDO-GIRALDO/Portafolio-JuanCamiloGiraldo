@@ -6,31 +6,31 @@ function MyWorkPage() {
   const projects = [
     {
       id: 1,
-      title: "Proyecto 1",
+      title: "LISTA DE TAREAS",
       description: "Descripción del primer proyecto.",
-      image: "ruta-de-la-imagen-1.jpg",
-      link: "/project/1",
+      image: "../../../../public/Imagenes/proyecto-1.png",
+      link: "https://www.google.com/",
     },
     {
       id: 2,
-      title: "Proyecto 2",
+      title: "APLICACION DE PELICULAS",
       description: "Descripción del segundo proyecto.",
-      image: "ruta-de-la-imagen-2.jpg",
-      link: "/project/2",
+      image: "../../../../public/Imagenes/proyecto-2.png",
+      link: "https://www.google.com/",
     },
     {
       id: 3,
-      title: "Proyecto 3",
+      title: "PRIMER PORTAFOLIO",
       description: "Descripción del tercer proyecto.",
-      image: "ruta-de-la-imagen-3.jpg",
-      link: "/project/3",
+      image: "../../../../public/Imagenes/proyecto-3.png",
+      link: "https://www.google.com/",
     },
     {
       id: 4,
-      title: "Proyecto 4",
+      title: "SEGUNDO PORTAFOLIO",
       description: "Descripción del cuarto proyecto.",
-      image: "ruta-de-la-imagen-4.jpg",
-      link: "/project/4",
+      image: "../../../../public/Imagenes/proyecto-4.png",
+      link: "https://www.google.com/",
     },
   ];
 
@@ -57,7 +57,7 @@ function MyWorkPage() {
               <Card.Img variant="top" src={project.image} alt={project.title} />
               <Card.Body>
                 <Card.Title>{project.title}</Card.Title>
-                <Card.Text>{project.description}</Card.Text>
+                <Card.Link>{project.link}</Card.Link>
                 <Button
                   variant="primary"
                   onClick={() => openProjectDetails(project)}

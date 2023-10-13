@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 function Footer() {
   return (
@@ -6,40 +7,37 @@ function Footer() {
       <div className="container text-center">
         <div className="row">
           <div className="col-12">
+            <h4>Juan Camilo Giraldo</h4>
+            <h6>Full Stack Developer</h6>
+          </div>
+          <div className="col-12 mt-5">
             <h4>Enlaces Rápidos</h4>
             <ul className="list-unstyled">
               <li>
-                <a href="/" className="text-light">
+                <Link to="inicio" smooth={true} duration={500}>
                   Inicio
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="text-light">
-                  Sobre Nosotros
-                </a>
+                <Link to="sobre-mi" smooth={true} duration={500}>
+                  Sobre-Mi
+                </Link>
               </li>
               <li>
-                <a href="/services" className="text-light">
+                <Link to="mis-trabajos" smooth={true} duration={500}>
+                  Mis-Trabajos
+                </Link>
+              </li>
+              <li>
+                <Link to="servicios" smooth={true} duration={500}>
                   Servicios
-                </a>
-              </li>
-              <li>
-                <a href="/contact" className="text-light">
-                  Contáctanos
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
           <div className="col-12 mt-4">
-            <h4>Información Adicional</h4>
-            <div className="mx-auto" style={{ maxWidth: "600px" }}>
-              <p className="text-center">
-                Somos una empresa comprometida con la excelencia. Nuestra misión
-                es brindar soluciones innovadoras a nuestros clientes y superar
-                sus expectativas. Estamos aquí para ayudarte a alcanzar tus
-                objetivos con tecnología de vanguardia y un equipo de expertos
-                apasionados.
-              </p>
+            <div className="col-12 mt-5">
+              <p>&copy; {new Date().getFullYear()} Juan Camilo Giraldo. Todos los derechos reservados.</p>
             </div>
           </div>
         </div>

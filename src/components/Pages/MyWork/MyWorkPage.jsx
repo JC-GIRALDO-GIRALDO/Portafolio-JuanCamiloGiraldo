@@ -73,7 +73,7 @@ function MyWorkPage() {
   };
 
   return (
-    <Container id="mis-trabajos" className="mt-5 pt-5">
+    <Container id="mis-trabajos" className="mt-4 ">
       <h2 className="text-center mt-5 pt-5">Mis Trabajos</h2>
       <Row className="mt-5">
         {projects.map((project) => (

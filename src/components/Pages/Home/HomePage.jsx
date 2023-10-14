@@ -11,7 +11,7 @@ function HomePage() {
             src="https://i.imgur.com/75XdxcS.png"
             alt="Mi Portafolio"
             style={{
-              maxWidth: "90%", // Cambiar el tamaño de la imagen
+              maxWidth: "85%", // Cambiar el tamaño de la imagen
               height: "auto",
               backgroundColor: "white",
               borderRadius: "10px", // Agregar un borde estético

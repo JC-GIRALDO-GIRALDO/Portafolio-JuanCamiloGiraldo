@@ -28,14 +28,14 @@ function ProjectDetails({ project, onClose, onPrevious, onNext }) {
                 Proyecto Anterior
               </Button>
               <Button variant="primary" href={project.appLink} target="_blank">
-                Ir a la Aplicación
+                Web
               </Button>
               <Button
                 variant="secondary"
                 href={project.githubLink}
                 target="_blank"
               >
-                Repositorio en GitHub
+                GitHub
               </Button>
               <Button
                 variant="danger"

@@ -129,8 +129,8 @@ function AboutMePage() {
           </div>
         </Col>
         <Col xs={12} md={6}>
-          <div className="about-image mx-auto">
-            {/* Añade la clase mx-auto para centrar horizontalmente */}
+          <div className="about-image">
+            {/* Añade la clase about-image para aplicar estilos específicos en dispositivos móviles */}
             <img
               src="https://i.imgur.com/RBna8oh.jpg"
               alt="Mi Foto"

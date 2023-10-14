@@ -6,10 +6,10 @@ import "./AboutMePage.css";
 
 function AboutMePage() {
   return (
-    <Container id="sobre-mi" className="mt-5 pt-5">
+    <Container id="sobre-mi" className="mt-5">
       <h2 className="text-center mt-5 pt-5">Sobre Mí</h2>
       <Row className="mt-5">
-        <Col xs={12} md={6} className="mt-4">
+        <Col xs={12} md={6} className="mt-4 text-center">
           <div
             className="about-text"
             style={{
@@ -135,7 +135,9 @@ function AboutMePage() {
           </div>
         </Col>
         <Col xs={12} md={6}>
-          <div className="about-image">
+          <div className="about-image mx-auto">
+            {" "}
+            {/* Añade la clase mx-auto para centrar horizontalmente */}
             <img
               src="https://i.imgur.com/RBna8oh.jpg"
               alt="Mi Foto"

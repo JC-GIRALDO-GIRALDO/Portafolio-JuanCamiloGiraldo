@@ -21,7 +21,8 @@ function ServicesPage() {
     },
     {
       title: "Bases de Datos",
-      description: "Diseño y gestión de bases de datos MongoDB.",
+      description:
+        "Diseño y gestión de bases de datos MongoDB no relacionales.",
       imageUrl: "https://i.imgur.com/T9cuZ8e.png",
     },
     {
@@ -48,6 +49,7 @@ function ServicesPage() {
                 variant="top"
                 src={service.imageUrl}
                 alt={service.title}
+                style={{ objectFit: "cover", height: "200px" }} // Ajustar la altura
               />
               <Card.Body>
                 <Card.Title>{service.title}</Card.Title>

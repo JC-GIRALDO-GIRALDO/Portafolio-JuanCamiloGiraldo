@@ -23,7 +23,9 @@ function Header() {
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      {" "}
+      {/* Cambiado a bg-dark para hacer el menú negro */}
       <div className="container">
         <div className="row w-100 align-items-center">
           <div className="col-12 col-lg-9 text-center mb-3">
@@ -43,8 +45,9 @@ function Header() {
                       spy={true}
                       offset={-50}
                       onSetActive={handleSetActive}
+                      className="pointer-cursor"
                     >
-                      {item.toUpperCase()}
+                      <span className="custom-font">{item.toUpperCase()}</span>
                     </Link>
                   </li>
                 ))}
@@ -54,7 +57,7 @@ function Header() {
           <div className="col-12 col-lg-3 text-center">
             <div
               className="navbar-brand brand-text h1"
-              style={{ fontSize: "32px" }}
+              style={{ fontSize: "32px", color: "white" }}
             >
               Juan Camilo Giraldo
             </div>

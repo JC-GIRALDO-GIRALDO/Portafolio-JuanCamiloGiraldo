@@ -4,7 +4,6 @@
     format("woff2");
   /* Agrega otros formatos de fuente si es necesario, como 'woff' y 'ttf' */
 }
-
 .munu li {
   margin-left: 15px;
   margin-right: 15px;
@@ -25,6 +24,7 @@
   color: #ff6600; /* Color de texto para el elemento activo */
 }
 .navbar-nav .nav-item a {
+  text-decoration: none;
   font-size: 18px; /* Cambia el tamaño de fuente a tu preferencia */
 }
 .brand-text {
@@ -39,4 +39,22 @@
   font-family: "AlexBrush", sans-serif;
   font-size: auto; /* Aumenta el tamaño de la fuente a 70px o al valor deseado */
   color: #ff6600;
+  text-decoration: none;
+}
+.pointer-cursor {
+  cursor: pointer;
+}
+.custom-font {
+  font-family: "OtraFuente", sans-serif; /* Cambia "OtraFuente" a la fuente deseada */
+}
+
+/* Agrega estilos específicos para el subrayado solo cuando se está en el componente activo */
+.navbar-nav .nav-item.active .custom-font {
+  color: white;
+  text-decoration: underline;
+  /* Otros estilos que desees aplicar al componente activo */
+}
+
+.pointer-cursor {
+  cursor: pointer;
 }

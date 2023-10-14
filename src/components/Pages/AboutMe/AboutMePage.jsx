@@ -38,18 +38,12 @@ function AboutMePage() {
             className="social-icons-container"
             style={{
               display: "flex",
-              justifyContent: "center",
+              flexDirection: "column",
+              alignItems: "center", // Centra verticalmente los iconos
               marginTop: "20px",
             }}
           >
-            <div
-              className="social-icons"
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                width: "60%",
-              }}
-            >
+            <div className="social-icons">
               <a
                 href="mailto:kmilom19@gmail.com"
                 target="_blank"
@@ -136,7 +130,6 @@ function AboutMePage() {
         </Col>
         <Col xs={12} md={6}>
           <div className="about-image mx-auto">
-            {" "}
             {/* Añade la clase mx-auto para centrar horizontalmente */}
             <img
               src="https://i.imgur.com/RBna8oh.jpg"

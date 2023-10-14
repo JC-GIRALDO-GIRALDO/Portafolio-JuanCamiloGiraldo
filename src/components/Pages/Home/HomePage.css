@@ -14,3 +14,18 @@
   font-size: 25px;
   margin-top: 2rem;
 }
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .col-sm-12 {
+    text-align: center; /* Centra el contenido en dispositivos móviles */
+  }
+
+  .col-md-6.col-sm-12 {
+    padding: 0; /* Elimina el espacio entre las columnas en dispositivos móviles */
+  }
+
+  .col-md-6.col-sm-12 img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho de la pantalla */
+    background-color: #007bff; /* Agrega un fondo blanco a la imagen */
+  }
+}

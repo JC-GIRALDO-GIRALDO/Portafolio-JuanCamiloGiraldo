@@ -20,7 +20,7 @@ function HomePage() {
         </div>
 
         {/* Sección de texto */}
-        <div className="col-md-6 col-sm-12 mt-5 text-center contenido-texto">
+        <div className="col-md-6 col-sm-12 mt-5 pt-5 text-center contenido-texto">
           <h3>Bienvenido a mi Portafolio</h3>
           <h2>Yo soy, Juan Giraldo</h2>
           <h4>Desarrollador Full Stack</h4>

@@ -137,7 +137,7 @@ function AboutMePage() {
         <Col xs={12} md={6}>
           <div className="about-image">
             <img
-              src="../../../../public/Imagenes/Foto-Camilo-port.png"
+              src="https://i.imgur.com/RBna8oh.jpg"
               alt="Mi Foto"
               style={{ width: "100%", height: "auto", borderRadius: "10px" }}
             />

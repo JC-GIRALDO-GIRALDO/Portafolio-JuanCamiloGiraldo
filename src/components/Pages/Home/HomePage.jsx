@@ -8,7 +8,7 @@ function HomePage() {
         {/* Sección de la imagen */}
         <div className="col-md-6 d-flex justify-content-center align-items-center">
           <img
-            src="../../../../public/Imagenes/fondo-10.png" // Reemplaza con la ruta de tu imagen
+            src="https://i.imgur.com/75XdxcS.png" // Reemplaza con la ruta de tu imagen
             alt="Mi Portafolio"
             style={{ maxWidth: "50%", height: "auto" }} // Establece el estilo en línea para la imagen
           />

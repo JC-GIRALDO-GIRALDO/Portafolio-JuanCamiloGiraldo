@@ -20,19 +20,35 @@ function ProjectDetails({ project, onClose, onPrevious, onNext }) {
           <Card.Text>{project.description}</Card.Text>
           <div className="button-container">
             <div className="button-group">
-              <Button variant="secondary" className="previous-button" onClick={navigateToPreviousProject}>
+              <Button
+                variant="secondary"
+                className="previous-button"
+                onClick={navigateToPreviousProject}
+              >
                 Proyecto Anterior
               </Button>
               <Button variant="primary" href={project.appLink} target="_blank">
                 Ir a la Aplicación
               </Button>
-              <Button variant="secondary" href={project.githubLink} target="_blank">
+              <Button
+                variant="secondary"
+                href={project.githubLink}
+                target="_blank"
+              >
                 Repositorio en GitHub
               </Button>
-              <Button variant="danger" className="close-button" onClick={onClose}>
+              <Button
+                variant="danger"
+                className="close-button"
+                onClick={onClose}
+              >
                 Cerrar
               </Button>
-              <Button variant="secondary" className="next-button" onClick={navigateToNextProject}>
+              <Button
+                variant="secondary"
+                className="next-button"
+                onClick={navigateToNextProject}
+              >
                 Proyecto Siguiente
               </Button>
             </div>

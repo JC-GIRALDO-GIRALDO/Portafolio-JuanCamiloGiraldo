@@ -3,7 +3,7 @@ import "./HomePage.css";
 
 function HomePage() {
   return (
-    <div id="inicio" className="mt-5 pt-5">
+    <div id="inicio" className="text-center mt-5 pt-5">
       <div className="row">
         {/* Sección de la imagen */}
         <div className="col-md-6 d-flex justify-content-center align-items-center">

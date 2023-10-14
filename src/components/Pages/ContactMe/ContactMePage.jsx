@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Form, Button, Row, Col, Card } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../../../fontAwesome";
+import "./ContactMePage.css";
 
 function ContactMePage() {
   const [formData, setFormData] = useState({
@@ -29,9 +30,9 @@ function ContactMePage() {
   };
 
   return (
-    <Container id="contacto" className="mt-5 pt-5">
-      <h2 className="text-center mb-4">¡Contáctame!</h2>
-      <Row>
+    <Container id="contacto" className="mt-5">
+      <h2 className="text-center mt-5 pt-5">¡Contáctame!</h2>
+      <Row className="mt-5">
         <Col md={6}>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="name">
@@ -95,36 +96,44 @@ function ContactMePage() {
             </Card.Body>
             <Card.Title className="text-center mt-4">Redes Sociales</Card.Title>
             <Card.Body className="social-icons">
-              <a href="URL-de-Gmail" target="_blank" rel="noopener noreferrer">
+              <a
+                href="mailto:kmilom19@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon
                   icon={["fab", "google"]}
-                  className="text-primary"
-                />
-              </a>
-              <a href="URL-de-GitHub" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon
-                  icon={["fab", "github"]}
-                  className="text-primary"
+                  className="text-black"
                 />
               </a>
               <a
-                href="URL-de-LinkedIn"
+                href="https://github.com/JC-GIRALDO-GIRALDO"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={["fab", "github"]}
+                  className="text-black"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/juan-camilo-giraldo-desarrollador/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon
                   icon={["fab", "linkedin"]}
-                  className="text-primary"
+                  className="text-black"
                 />
               </a>
               <a
-                href="URL-de-WhatsApp"
+                href="https://wa.me/3209202297"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon
                   icon={["fab", "whatsapp"]}
-                  className="text-primary"
+                  className="text-black"
                 />
               </a>
             </Card.Body>

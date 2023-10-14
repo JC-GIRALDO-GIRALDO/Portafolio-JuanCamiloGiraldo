@@ -7,55 +7,19 @@ import "./AboutMePage.css";
 function AboutMePage() {
   return (
     <Container id="sobre-mi" className="mt-5 pt-5">
-      <h2 className="text-center mt-5 pt-5 sobreMi">Sobre Mí</h2>
+      <h2 className="text-center mt-5 pt-5">Sobre Mí</h2>
       <Row className="mt-5">
-        <Col xs={12} md={4} className="order-md-2">
-          <div className="about-image">
-            <img
-              src="../../../../public/Imagenes/Foto-Camilo-port.png"
-              alt="Mi Foto"
-              fluid="true"
-              style={{ maxWidth: "100%", height: "auto" }}
-            />
-            <div className="social-icons">
-              <a href="URL-de-Gmail" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon
-                  icon={["fab", "google"]}
-                  className="text-white"
-                />
-              </a>
-              <a href="URL-de-GitHub" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon
-                  icon={["fab", "github"]}
-                  className="text-white"
-                />
-              </a>
-              <a
-                href="URL-de-LinkedIn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={["fab", "linkedin"]}
-                  className="text-white"
-                />
-              </a>
-              <a
-                href="URL-de-WhatsApp"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={["fab", "whatsapp"]}
-                  className="text-white"
-                />
-              </a>
-              {/* Agrega más iconos de redes sociales o contactos según sea necesario */}
-            </div>
-          </div>
-        </Col>
-        <Col xs={12} md={6} className="order-md-1">
-          <div className="about-text">
+        <Col xs={12} md={6} className="mt-4">
+          <div
+            className="about-text"
+            style={{
+              backgroundColor: "#007bff",
+              padding: "20px",
+              borderRadius: "10px",
+              color: "#fff",
+              fontSize: "1.2rem",
+            }}
+          >
             <p>
               ¡Hola! Soy un apasionado desarrollador web con experiencia en
               tecnologías como React, Node.js, HTML, CSS y mucho más. Me encanta
@@ -69,14 +33,114 @@ function AboutMePage() {
               explorando nuevas tecnologías para mantenerme actualizado en este
               mundo en constante evolución.
             </p>
+          </div>
+          <div
+            className="social-icons-container"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "20px",
+            }}
+          >
+            <div
+              className="social-icons"
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                width: "60%",
+              }}
+            >
+              <a
+                href="mailto:kmilom19@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={["fab", "google"]}
+                  className="text-white"
+                  style={{
+                    fontSize: "1.5rem",
+                    borderRadius: "50%",
+                    padding: "10px",
+                    background: "black",
+                  }}
+                />
+              </a>
+              <a
+                href="https://github.com/JC-GIRALDO-GIRALDO"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={["fab", "github"]}
+                  className="text-white"
+                  style={{
+                    fontSize: "1.5rem",
+                    borderRadius: "50%",
+                    padding: "10px",
+                    background: "black",
+                  }}
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/juan-camilo-giraldo-desarrollador/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={["fab", "linkedin"]}
+                  className="text-white"
+                  style={{
+                    fontSize: "1.5rem",
+                    borderRadius: "50%",
+                    padding: "10px",
+                    background: "black",
+                  }}
+                />
+              </a>
+              <a
+                href="https://wa.me/3209202297"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={["fab", "whatsapp"]}
+                  className="text-white"
+                  style={{
+                    fontSize: "1.5rem",
+                    borderRadius: "50%",
+                    padding: "10px",
+                    background: "black",
+                  }}
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "20px",
+            }}
+          >
             <Button
               variant="primary"
               href="../../../../public/CV_JUAN_CAMILO_GIRALDO.docx"
               target="_blank"
               download
+              style={{ width: "60%" }}
             >
               Descargar CV
             </Button>
+          </div>
+        </Col>
+        <Col xs={12} md={6}>
+          <div className="about-image">
+            <img
+              src="../../../../public/Imagenes/Foto-Camilo-port.png"
+              alt="Mi Foto"
+              style={{ width: "100%", height: "auto", borderRadius: "10px" }}
+            />
           </div>
         </Col>
       </Row>

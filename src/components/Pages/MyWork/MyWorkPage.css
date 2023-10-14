@@ -1,21 +1,20 @@
 .button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .button-group {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
-  }
-  
-  .previous-button {
-    margin-right: auto; /* Empujar el botón "Proyecto Anterior" a la derecha */
-  }
-  
-  .next-button {
-    margin-left: auto; /* Empujar el botón "Proyecto Siguiente" a la izquierda */
-  }
-  
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.previous-button {
+  margin-right: auto; /* Empujar el botón "Proyecto Anterior" a la derecha */
+}
+
+.next-button {
+  margin-left: auto; /* Empujar el botón "Proyecto Siguiente" a la izquierda */
+}

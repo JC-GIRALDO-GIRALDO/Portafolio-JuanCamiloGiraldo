@@ -1,35 +1,42 @@
-.about-image {
-  margin-left: 10rem; /* Ajusta el margen a tu preferencia */
-}
 .about-text {
-  background-color: #007bff; /* Color de fondo para el contenedor de texto */
+  background-color: #007bff;
   padding: 20px;
-  border-radius: 10px; /* Borde redondeado */
-  color: #fff; /* Color de texto */
-  margin-left: 20px; /* Espacio entre la imagen y el texto */
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.about-image {
+  display: flex;
+  align-items: center; /* Los iconos estarán en la parte inferior de la imagen */
+  margin-top: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.about-image img {
+  max-width: 80%; /* La imagen es un poco más pequeña */
+  height: auto;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
 }
 
 .social-icons {
-  text-align: center; /* Centra los iconos de redes sociales */
-  margin: 1rem auto;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
 }
 
 .social-icons a {
-  margin: 0 auto;
-  background-color: lightslategrey;
-  border: 2px solid #007bff; /* Borde con color de fondo */
-  border-radius: 50%; /* Borde redondeado para los iconos */
-  padding: 10px; /* Espacio interno para los iconos */
-  display: inline-block; /* Alinea los iconos en línea horizontal */
-  transition: background-color 0.3s, border-color 0.3s; /* Efecto de transición en hover */
+  border-radius: 50%;
+  color: #007bff;
+  padding: 10px;
+  margin: 5px; /* Espacio entre los iconos */
+  display: inline-block;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 .social-icons a:hover {
-  background-color: #007bff; /* Cambia el color de fondo en hover */
-  border-color: #fff; /* Cambia el color del borde en hover */
-}
-.sobreMi {
-  margin-top: 100rem;
+  background-color: #007bff; /* Cambia el color al hacer hover */
+  transform: scale(1.2); /* Escala ligeramente el botón al hacer hover */
 }

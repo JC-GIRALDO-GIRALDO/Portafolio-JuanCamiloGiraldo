@@ -3,14 +3,14 @@ import { Link } from "react-scroll";
 
 function Footer() {
   return (
-    <footer className="bg-dark text-light py-5">
+    <footer className="bg-dark text-light py-5 mt-5">
       <div className="container text-center">
         <div className="row">
           <div className="col-12">
             <h4>Juan Camilo Giraldo</h4>
             <h6>Full Stack Developer</h6>
           </div>
-          <div className="col-12 mt-5">
+          <div className="col-12 mt-4">
             <h4>Enlaces Rápidos</h4>
             <ul className="list-unstyled">
               <li>
@@ -35,9 +35,12 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-12 mt-4">
-            <div className="col-12 mt-5">
-              <p>&copy; {new Date().getFullYear()} Juan Camilo Giraldo. Todos los derechos reservados.</p>
+          <div className="col-12 mt-3">
+            <div className="col-12 mt-2">
+              <p>
+                &copy; {new Date().getFullYear()} Juan Camilo Giraldo. Todos los
+                derechos reservados.
+              </p>
             </div>
           </div>
         </div>

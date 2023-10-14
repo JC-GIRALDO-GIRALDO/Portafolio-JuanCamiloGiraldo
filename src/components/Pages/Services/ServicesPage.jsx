@@ -7,33 +7,33 @@ function ServicesPage() {
     {
       title: "Diseño Web",
       description: "Diseño de sitios web atractivos y funcionales.",
-      imageUrl: "../../../../public/Imagenes/Diseno-Web.png",
+      imageUrl: "https://i.imgur.com/TguLcNw.png",
     },
     {
       title: "Desarrollo Frontend",
       description: "Desarrollo de interfaces de usuario interactivas.",
-      imageUrl: "../../../../public/Imagenes/Desarrollo-Frontend.png",
+      imageUrl: "https://i.imgur.com/dyyKAxv.png",
     },
     {
       title: "Desarrollo Backend",
       description: "Desarrollo de servidores y API con Node.js y Express.",
-      imageUrl: "../../../../public/Imagenes/Desarrollo-Backend.png",
+      imageUrl: "https://i.imgur.com/3D6qsMP.png",
     },
     {
       title: "Bases de Datos",
       description: "Diseño y gestión de bases de datos MongoDB.",
-      imageUrl: "../../../../public/Imagenes/Bases-de-Datos.png",
+      imageUrl: "https://i.imgur.com/T9cuZ8e.png",
     },
     {
       title: "Responsive Design",
       description: "Sitios web adaptables a dispositivos móviles y tablets.",
-      imageUrl: "../../../../public/Imagenes/Responsive-Design.png",
+      imageUrl: "https://i.imgur.com/DaCwV5q.png",
     },
     {
       title: "Diseño Gráfico",
       description:
         "Creación de gráficos atractivos y creativos para tus proyectos visuales.",
-      imageUrl: "../../../../public/Imagenes/Diseno-Grafico.png",
+      imageUrl: "https://i.imgur.com/Jvzp5CN.png",
     },
   ];
 

@@ -9,7 +9,7 @@ function MyWorkPage() {
       title: "LISTA DE TAREAS",
       description:
         "Una aplicación de lista de tareas hecha con React que te ayuda a mantener tus tareas organizadas y productivas. Añade, elimina y marca tareas completadas de manera eficiente.",
-      image: "../../../../public/Imagenes/proyecto-1.png",
+      image: "https://i.imgur.com/tXdrlSN.png",
       appLink: "https://my-react-task-list.vercel.app/",
       githubLink:
         "https://github.com/JC-GIRALDO-GIRALDO/my-react-task-list.git",
@@ -19,7 +19,7 @@ function MyWorkPage() {
       title: "APLICACION DE PELICULAS",
       description:
         "Una página de películas construida en React que te permite explorar y descubrir películas emocionantes. Busca, filtra y disfruta de tus películas favoritas en un solo lugar.",
-      image: "../../../../public/Imagenes/proyecto-2.png",
+      image: "https://i.imgur.com/HZ7zNWg.png",
       appLink: "Enlace a la aplicación 2",
       githubLink: "Enlace al repositorio 2",
     },
@@ -28,7 +28,7 @@ function MyWorkPage() {
       title: "PRIMER PORTAFOLIO",
       description:
         "Un portafolio personal desarrollado en React para destacar mis proyectos y habilidades. Muestra mi trabajo y experiencia.",
-      image: "../../../../public/Imagenes/proyecto-3.png",
+      image: "https://i.imgur.com/MJ3P4yK.png",
       appLink: "Enlace a la aplicación 3",
       githubLink: "Enlace al repositorio 3",
     },
@@ -37,7 +37,7 @@ function MyWorkPage() {
       title: "SEGUNDO PORTAFOLIO",
       description:
         " Un portafolio interactivo en React que muestra mi trabajo y experiencia de manera atractiva, destacando mis logros y habilidades en el diseño y desarrollo web.",
-      image: "../../../../public/Imagenes/proyecto-4.png",
+      image: "https://i.imgur.com/FhQgJLW.png",
       appLink: "Enlace a la aplicación 4",
       githubLink: "Enlace al repositorio 4",
     },
